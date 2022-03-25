@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="before">
         <?php
-            $n1 = $_GET["a"];
-            $n2 = $_GET["b"];
+            $n1 = 4;
+            $n2 = 5;
             echo "<h2>OS VALORES SÃO $n1 E $n2</h2>";
             $m  = ($n1 + $n2) / 2;
             echo "$n1 + $n2 = ".($n1 + $n2);
